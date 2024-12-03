@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RoomResponseDto {
-	private String room_name;
-	private String room_capacity;
-	private String room_location;
+	private int roomId;
+	private String roomName;
+	private int roomCapacity;
+	private String roomLocation;
 }
