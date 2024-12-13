@@ -19,6 +19,7 @@ import com.galaxe.crsm.roomservice.service.RoomService;
 
 @RestController
 @RequestMapping("api/rooms")
+
 public class RoomController {
 
 	@Autowired
